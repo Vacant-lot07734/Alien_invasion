@@ -19,7 +19,6 @@ class Alien(Sprite):
         # specific loc
         self.x = float(self.rect.x)
 
-
     def check_edges(self):
         """check if the aliens collide with the screen"""
         screen_rect = self.screen.get_rect()
